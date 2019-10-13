@@ -1,27 +1,27 @@
 # Sophossolutions
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+- Este proyecto es generado con [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
-## Development server
+## Descripción de la Aplicación
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Tiene dos modulos **AdminTiendaModule** y **NavegadoresModule**. En el primero se encuentran los componentes de negocio de la aplicación y en el segundo los componentes de navegación (barra de navegación y pie de página).
+- El componente **NavbarComponent** es la barra de navegación en la parte superior.
+- El componente **FooterComponent** es el pie de página en la parte inferior.
+- El componente **HomeComponent** es la página principal y tiene un mensaje de bienvenida.
+- El componente **ConsultarProductosComponent** es la consulta de los productos y por la cual se pueden radicar los pedidos.
+- El componente **ConsultarPedidosComponent** es la consulta de los pedidos.
 
-## Code scaffolding
+## Desplegar la Aplicación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Clonar el repositorio en una carpeta de trabajo `git clone https://github.com/holverp/PruebaAngularHolverPatino.git`
+- Desde Visual Studio Code abrir la carpeta **sophossolutions** como worksapace.
+- Ejecutar en la terminal `npm install` y luego `npm update`
+- Ejecutar `ng serve` y en **Google Chrome** abrir la página `http://localhost:4200/`
 
-## Build
+## Generar Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Ejecutar `ng build` y copiar la carpeta **sophossolutions** que esta en la carpeta **dist** al servidor de preferencia como por ejemplo nginx, configurar puertos y directorios para ejecutar la aplicación.
 
-## Running unit tests
+## Autor
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> Holver Esneider Patiño Cardona CC:1036780731
